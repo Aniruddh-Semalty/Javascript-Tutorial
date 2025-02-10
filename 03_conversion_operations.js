@@ -1,4 +1,5 @@
 //other types to number
+console.log("                      OTHER TO NUMBERS                  ")
 let name=Number("12")
 console.log(typeof name);
 console.log(name);
@@ -22,6 +23,7 @@ other types to number
 
 
 // other types to string
+console.log("                      OTHER TO STRINGS                  ")
 let score=10;
 score=String(score);
 console.log(score);
@@ -39,6 +41,7 @@ true="true" string
 */
 
 //other to booleans
+console.log("                      OTHER TO BOOLEANS                  ")
 score=Boolean(12);
 console.log(score); //true
 console.log(typeof(score)); //boolean
@@ -63,3 +66,13 @@ other to booleans
 ""=>false boolean
 0=>false boolean
 */
+
+
+// String conversions
+console.log("                      STRING STARTS HERE                  ")
+console.log(1+2)  //2
+console.log("1+2") //"1+2"
+console.log("1"+2+3) //"123"
+console.log(1+3+"2") // "42"
+console.log(1+"2"+3+"4"+5) // "12345"
+console.log(+true) //1
