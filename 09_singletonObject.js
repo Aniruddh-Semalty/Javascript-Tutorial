@@ -30,3 +30,14 @@ console.log(Object.entries(user)); //return array of key and values
 
 console.log(user.hasOwnProperty("exp"));
 console.log(user.hasOwnProperty("expi"));
+
+
+//destructuring object
+const course={
+    name:"Namaste coding",
+    id:"fshajsdk",
+    instrutor:"Aniruddh semalty",
+};
+const {name:cName,instrutor:it}=course;
+console.log(cName);
+console.log(it);
